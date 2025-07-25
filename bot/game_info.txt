@@ -1,0 +1,159 @@
+Name: Wylder
+Category: character
+Description: Wylder is an all-rounder Nightfarer, that can fulfill different roles but doesn't specialize as much as other Nightfarers. Can be a good starting Nightfarer for newcomers as it is balanced all-around. Wylder is a knight proeficient in a wide range of melee weapons, can throw grappling hooks to pull enemies or swiftly close distances. Wylder can also launch explosive iron spikes that deal a powerful blow to any enemy. His attriburtes are balanced throughout maturation, with excellent HP, strength, and dexterity. Able to command all types of melee weapons.
+Lore: A young man long in pursuit of the Nigthlord. This swordsman has defied death at every turn with his stunning sixth sense for combat. He swore to avenge the Night in the name of his massacred tribe.
+Weapon preference: Greatswords
+Passive ability: If Wylder were to take a lethal damage attack, he immediately dodges it. This effect only triggers once, but can be replenished by approaching a Site of Grace or after respawning from death. Revival from near-death by a teammate will not replenish it.
+Skill ability: Launch a grappling claw to rope foes in or move swiftly by retracting. Smaller enemies will be pulled towards the Wylder and if used on larger enemies, Wylder will drag himself towards them.
+Ultimate art: Powerful single attack that launches a iron stake with a great explosion. If charged, it will replenish the whole ultimate art gauge and do high damage; if not charged, it wil only replenish half of the ultimate art gauge and do less damage.
+Scaling: Vigor, Strength, and Dexterity
+
+Name: Duchess
+Category: character
+Description: Duchess a thief/assassin type of Nightfarer, that deals damage not by brute force, but instead relies on quick succession of strikes and being able to get in and out of combat quickly. The Duchess' high dexterity and intelligence allow her to fight with combinations of sorceries and weapons.
+Lore: Virtuous thief and stepdaughter of the viscount. Her ability to swiftly escape anyone's grasp with ease earned her the title of Duschess.
+Weapon preference: Daggers
+Passive ability: Allows Dutchess to dodge a second time by pressing the dodge button again quickly after the first dodge.
+Skill ability: Dutchess can reapply all damage an enemy or boss has suffered in the last three seconds. All ailment buildup during the past three seconds will also be applied and the damage replicated is 50% of the base damage.
+Ultimate art: Stealth's herself and all nearby allies for 10 seconds, making it so enemies and bosses can't spot their location.
+Scaling: Dexterity and Intelligence
+
+Name: Recluse
+Category: character
+Description: Recluse is a spell-caster type of Nightfarer, making her a mage archetype. She can siphon FP from enemies and nearby allies by using her Magic Cocktail ability at range. This allows her to cast spells and use weapon skills more ofthen than other Nightfarers, though, she can still use any weapon in the game. Boasts high Intelligence and Faith and is able to deftly cast all manner of spells.
+Lore: One of the Witches of the Deep Forest. A caster of ancient sorceries who dwells in obscurity, far into the heart of the woods. She came to the Lands Between to answer a burning question.
+Weapon preference: Staffs
+Passive ability: Allows Recluse to siphon FP from enemies and nearby allies to further empower her spell casting by using Magic Cocktail. This ability also restores a small amount of FP for Recluse.
+Skill ability: Allows Recluse to use a combanation of elements seen from Elemental Defense to trigger various effects based on the combination of elements. A combined total of three elements are required to trigger the skill.
+Ultimate art: Marks all nearby enemies with a mark that lasts 16 seconds. When Recluse or any of her allies strike any of the marked enemies, they will regain HP and FP with each single strike.
+Scaling: Intelligence, Mind, and Faith
+
+Name: Revenant
+Category: character
+Description: Revenant is a summoning type Nightfarer that uses necromancy to summon ghostly allies into battle. She focuses on supporting allies by summoning these apparitions for defense or to fight alongside them.
+Lore: Doll of the daughter of an aristocratic family that faced ruin. On a fateful night, her soul took possesion of the doll's body, and she swore to avenge her disgraced lineage. Her main theme song is Bring Me To Life by Evanescene.
+Weapon preference: None
+Passive ability: If an enemy is attacked by Revenant and is slain by either Revenant or any of her allies, they get resurrected as enemy ghosts and fight alongside her.
+Skill ability: Choose between three summons, can only summon one at a time. If the summon is slayed, it will take some time for it to recover it's full HP and be ready to be summoned again. 
+Ultimate art: Release a vengeful ire to make Revenant and nearby allies immortal for 15 seconds. If a summon is in the field, they will perform a unique skill after casting the Ultimate Art. Aditionally, if any nearby ally is down, Revenant can cast hel Ultimate Art and revive them if close enough.
+Scaling: Mind and Faith
+
+Name: Raider
+Category: character
+Description: Raider is a massive Nightfarer that hits slow and heavy, ideal for Strength players. Wields a massive double-handed axe and can summon pillars of stone from the ground. Boasting high HP and Strength, his poise allows him to stand firm against moderate attacks and flatten opponents with vigorous offensives.
+Lore: A pirate who sailed to the Lands Between from a nearby waterway. The opportunity to try his hand against the Nightlord proved too glorious of an opportunity to pass up.
+Weapon preference: Greataxes, Great Hammers, Colossal Weapons
+Passive ability: Upon taking damage, Raider boosts his skill ability potency.
+Skill ability: Allows Raider to release a powerful punch that can knock back the enemy if his passive is active. Raider will have damage reduction while performing the punch and can't die while in animation.
+Ultimate art: Summons a giant tombstone that deals high damage to nearby enemies. Aditionally, it can buff his allies by giving them a productive aura and improving their Strength. The tombstone will remain in the field for 20 seconds.
+Scaling: Strength, Endurance, and Vigor
+
+Name: Guardian
+Category: character
+Description: Guardian is an archetypical tank Nightfarer that employs crowd control, strong defensive capabilities and buffs to make sure the team survives. He can also employ heavy, slow attaks, while also using his shield to take attacks in turn. His main role in combat is to be able to mitigate as much damage as possible, as well as building aggro to be targeted by the enemies.
+Lore: Pinionfolk knight of the winged realm. A former captain who was injured in a war in which his country's fate hung in the balance. Faced the brunt of the enemy warriors'attacks to protect his flock.
+Weapon preference: Halberds
+Passive ability: Puts Guardian into a stance that allows him to block more effectively at the cost of movemment speed and constant stamina drain. While in this stance, the guard boost of the shield is multiplied by 5, meaning he takes significantly less stamina and damage while blocking.
+Skill ability: Creates a whirlwind attack that hits 360 degrees around the Guardian. It can be charged and it provides a larger area of effect.
+Ultimate art: Guardian leaps high up into the air before crashing down into enemies. Continued holding lands Guardian while creating an aura that provides him and his allies immunity from damage for a period of time. At the point of impact, all downed allies in range will be resurrected, regardless of the amount of damage needed to resurrect them normally.
+Scaling: Vigor, Endurance, and Strength
+
+Name: Ironeye
+Category: character
+Description: Ironeye is an archer-type Nightfarer that excels in long-range comabat. Boasts excellent dexterity, and wields control over any battle while firing from a distant range.
+Lore: Assassin of the Fellowship. He is feared for his split-second judgment and the ability to spot even the most fleeting of chances to strike, earning him the moniker "Ironeye".
+Weapon preference: Bows
+Passive ability: Increases drop rate of runes, materials, and rare gear from enemies for the entire team, regardless of proximity.
+Skill ability: Perform a dash into the enemy creating a temporary weak point mark. Marked enemies take 10% more damage and upon successive attacks to the enemy, the mark will eventually break and stagger the enemy.
+Ultimate art: Fires a powerful arrow that surpasses sound and ingnores defense. Upon hitting an enemy, it releases a massive shockwave that deals damage in a large area, which can also knock down most small or medium-sized enemies.
+Scaling: Dexterity, Endurance and Arcane
+
+Name: Executor
+Category: character
+Description: Executor is a samurai-type Nightfarer that wields a katana and excels in close-quarters combat. Focused on precise parries and deflections, Executor is a formidable damage dealer in close combat. Boasts high Dexterity and Arcane, and is unrivaled in one-on-one fights while armed with his sword.
+Lore: This condemned soul, with a body fused with pieces of armor, went missing after a prison stint in the Lands Between. Brandishes a cursed blade and savors every battle.
+Weapon preference: Katanas
+Passive ability: Receive an attack and stamina recovery boost after recovering froms status ailments.  
+Skill ability: Draws the Cursed Sword that can deflect enemy attacks. Changes to a battle ready stance where Executor can parry enemy hits and with enough build up upon successive parries, he can unleash a counterattack. Being in this stance causes Executor to be unable to run or roll, instead, he's gived a short dash.
+Ultimate art: Transforms into a primordial beast for 15 seconds. In this form, Executor can hit enemies with light or heavy attacks and also has a roar that can stun multiple enemies for a short period of time. Using the roar near downed allies can also progressively resurrect them.
+Scaling: Dexterity and Arcane
+
+Name: Tricephalos
+Category: boss
+Description:
+Lore:
+Weapon preference:
+Passive ability:
+Skill ability:
+Ultimate art:
+Scaling:
+
+Name: Gaping Jaw
+Category: boss
+Description:
+Lore:
+Weapon preference:
+Passive ability:
+Skill ability:
+Ultimate art:
+Scaling:
+
+Name: Sentient Pest
+Category: boss
+Description:
+Lore:
+Weapon preference:
+Passive ability:
+Skill ability:
+Ultimate art:
+Scaling:
+
+Name: Augur
+Category: boss
+Description:
+Lore:
+Weapon preference:
+Passive ability:
+Skill ability:
+Ultimate art:
+Scaling:
+
+Name: Equilibrious Beast
+Category: boss
+Description:
+Lore:
+Weapon preference:
+Passive ability:
+Skill ability:
+Ultimate art:
+Scaling:
+
+Name: Darkdrift Knight
+Category: boss
+Description:
+Lore:
+Weapon preference:
+Passive ability:
+Skill ability:
+Ultimate art:
+Scaling:
+
+Name: Fissure in the Fog
+Category: boss
+Description:
+Lore:
+Weapon preference:
+Passive ability:
+Skill ability:
+Ultimate art:
+Scaling:
+
+Name: Night Aspect
+Category: boss
+Description:
+Lore:
+Weapon preference:
+Passive ability:
+Skill ability:
+Ultimate art:
+Scaling:
