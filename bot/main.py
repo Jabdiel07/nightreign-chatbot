@@ -5,9 +5,14 @@ from discord.ext import commands
 import os
 from dotenv import load_dotenv
 from data_loader import load_game_data
+from logger_info import setup_logging
 
 load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
+
+logger = setup_logging(level=os.getenv("LOG_LEVEL", "INFO"))
+
+logger.info("Starting Nightreign Bot")
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -25,6 +30,7 @@ category = SlashCommandGroup("category", "Get info on a character or boss.", gui
 # this event right here is tied to the character choice. The function does the usual, it asks the user for which character they want info for and then they pick the field they're interested in.
 @category.command(name="character", description = "Look up a Nightfarer's attributes.")
 async def character_info(ctx, name = Option(str, "Which character?", choices = category_lookup["character"]), field = Option(str, "Which field to show?", choices = char_fields)):
+    logger.info(f"{field} Query initiated by {ctx.author.name} for {name}")
     entry = name_lookup[name.lower()]
     value = entry.get(field) or "No data available."
     pretty_field = field.replace("_", " ").title() #.title() converts the field string into a title case, capitalizing the first letter of each word and lowercases the rest
@@ -33,6 +39,7 @@ async def character_info(ctx, name = Option(str, "Which character?", choices = c
 # same as the previous event, but this time for bosses
 @category.command(name="boss", description = "Look up a Nightlord's attribute.")
 async def boss_info(ctx, name = Option(str, "Which boss", choices = category_lookup["boss"]), field = Option(str, "Which field to show?", choices = boss_fields)):
+    logger.info(f"{field} Query initiated by {ctx.author.name} for {name}")
     entry = name_lookup[name.lower()]
     value = entry.get(field) or "No data available."
     pretty_field = field.replace("_", " ").title()
@@ -43,7 +50,7 @@ bot.add_application_command(category) # this line right here ensures that both s
 @bot.event
 async def on_ready():
     await bot.sync_commands() # this line is optional, pretty much all it does is register all the commands you defined a lot faster (without this line, it could take up to an hour for them to register)
-    print(f"{bot.user} has connected to Discord.")
+    logger.info(f"{bot.user} has connected to Discord.")
 
 @bot.command(name = "hello")
 async def hello(ctx):
@@ -51,7 +58,7 @@ async def hello(ctx):
     await ctx.send("Hello, I'm alive!")
 
 if not DISCORD_TOKEN:
-    print("Please, check your Discord Token.")
+    logger.error("Please, check your Discord Token.")
     exit(1)
 
 bot.run(DISCORD_TOKEN)
