@@ -64,7 +64,7 @@ pyhton main.py
 
 2. Run the commands in Discord
 
-/category <character or boss> <name> <field>: This will allow the user to enter the category of choice (between character or boss), choose the name of the character or boss they want information about, and the field they want to know about (this could be like lore, description, passive abilities, weaknesses, and more).
+/category "character or boss" "name" "field": This will allow the user to enter the category of choice (between character or boss), choose the name of the character or boss they want information about, and the field they want to know about (this could be like lore, description, passive abilities, weaknesses, and more).
 
 !hello: The bot will reply in chat with "Hello! I'm alive."
 
