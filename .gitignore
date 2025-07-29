@@ -5,3 +5,4 @@ __pycache__/
 .env
 .ipynb_checkpoints/
 venv/
+bot/game_info.py
